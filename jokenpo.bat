@@ -19,7 +19,7 @@ echo [3] Tesoura
 echo [4] Lagarto
 echo [5] Spock
 echo [6] Regras
-echo [7] Retornar ao Menu
+echo [7] Sair
 set /p op=selecione uma opcao: 
 
 
@@ -138,7 +138,6 @@ set /p op=selecione uma opcao:
 		goto inicio
 		
 	:sair
-		start menuprincipal.bat
 		exit
 		
 		
